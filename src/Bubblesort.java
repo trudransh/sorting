@@ -1,6 +1,6 @@
 import java.util.Arrays;
 class BubbleSort {
-	void bubbleSort(int arr[])
+	void BubbleSort(int arr[])
 	{
 		int n = arr.length;
 		for (int i = 0; i < n - 1; i++)
@@ -24,7 +24,7 @@ class BubbleSort {
 	{
 		BubbleSort ob = new BubbleSort();
 		int arr[] = { 64, 34, 25, 12, 22, 11, 90 };
-		ob.bubbleSort(arr);
+		ob.BubbleSort(arr);
 		System.out.println("Sorted array");
 		ob.printArray(arr);
 	}
